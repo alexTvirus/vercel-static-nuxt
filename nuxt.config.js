@@ -95,6 +95,7 @@ export default {
   */
   build: {
   },
+  babel: { compact: true },
   env: {
     auth: process.env.VUE_APP_DEFAULT_AUTH,
     apikey: process.env.VUE_APP_APIKEY,
